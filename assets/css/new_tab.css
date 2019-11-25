@@ -1,0 +1,162 @@
+.grid {
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: 200px;
+    background-color: white;
+    border: 1px solid #eee;
+    padding: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+.label-info {
+    background-color: #5bc0de
+}
+
+.label-success {
+    background-color: #5cb85c
+}
+
+.label-warning {
+    background-color: #f0ad4e
+}
+
+.label-danger {
+    background-color: #d9534f
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    font-size: 12px;
+    background-color: white;
+}
+
+hr {
+    margin: 10px 0;
+    height: 0;
+    box-sizing: content-box;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+a {
+    color: black;
+    display: grid;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.description {}
+
+.heading {
+    font-size: 12px;
+}
+
+ul#footer {
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+ul#footer li {
+    display: inline;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    border-right: 1px solid #ccc;
+}
+
+ul#footer li:last-child {
+    border-right: 0;
+}
+
+#nextLink {
+    display: none;
+    font-size: medium;
+    color: #ccc;
+}
+
+#nextLink:hover {
+    cursor: pointer;
+}
+
+.fa,
+.section,
+.nsfw {
+    float: right;
+    margin-bottom: 6px;
+}
+.fa{clear:right;}
+.fa a {color:#ddd;cursor:pointer;}
+.favorite {color: deeppink !important;}
+
+.points {
+    float: left;
+    font-size: 10px;
+}
+
+ul#topSites {
+    margin: 1em 5%;
+    padding: 0;
+}
+
+ul#topSites li {
+    display: inline-block;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+/* BookmarksBarFolder */
+
+ul.bookmarksBarFolderList {
+    margin: 0;
+    padding: 0;
+}
+
+li.bookmarksBarFolder,
+li.bookmarksBarFolderListItem {
+    display: inline;
+    position: relative;
+}
+
+li.bookmarksBarFolderListItem {
+    font-size: 75%;
+    width: 125px;
+}
+
+ul.bookmarksBarFolderList {
+    position: absolute;
+    display: none;
+    border-radius: 4px;
+    z-index: 1000;
+    padding: .2em .6em .3em;
+    background: rgba(238, 238, 238, 0.9);
+}
+
+li.bookmarksBarFolderListItem:hover {
+    text-decoration: underline;
+}
+
+li.bookmarksBarFolder:hover ul {
+    display: block;
+}
+
+/* BookmarksBarFolder */

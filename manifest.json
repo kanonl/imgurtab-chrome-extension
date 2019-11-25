@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "ImgurTab",
+    "version": "0.0.18",
+    "description": "Imgur is the best place to share and enjoy the most awesome images on the Internet.",
+    "icons": {
+        "16": "assets/images/icon_16.png",
+        "32": "assets/images/icon_32.png",
+        "48": "assets/images/icon_48.png",
+        "96": "assets/images/icon_96.png"
+    },
+    "author": "Kanon Lo",
+    "chrome_url_overrides": {
+        "newtab": "assets/views/new_tab.html"
+    },
+    "homepage_url": "http://me.kan.onl/",
+    "options_page": "assets/views/options.html",
+    "permissions": [
+        "topSites",
+        "storage",
+        "bookmarks",
+        "identity"
+    ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Options</title>
+	<meta charset="utf-8">
+	<link href="/libs/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/css/options.css" rel="stylesheet">
+	<script defer src="/assets/js/options.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<fieldset>
+			<legend>Options</legend>
+			<form autocomplete="off">
+				<h2>section</h2>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sectionRadios" id="sectionRadios1" value="hot">hot</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sectionRadios" id="sectionRadios2" value="top">top</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sectionRadios" id="sectionRadios3" value="user">user</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sectionRadios" id="sectionRadios4" value="random" checked>random</label>
+				</div>
+				<h2>sort</h2>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sortRadios" id="sortRadios1" value="viral">viral</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sortRadios" id="sortRadios2" value="top">top</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sortRadios" id="sortRadios3" value="time">time</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sortRadios" id="sortRadios3" value="rising">rising</label>
+				</div>
+				<div class="radio-inline">
+					<label>
+						<input type="radio" name="sortRadios" id="sortRadios4" value="random" checked>random</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="animated">allow animated gif <span class="label label-warning">high bandwidth</span></label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="topSites">show top sites <span class="label label-info">experimental</span></label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="nsfw">show nsfw</label>
+				</div>
+				<button type="submit" id="btnSave" class="btn btn-primary">Save</button>
+				<button type="reset" id="btnReset" class="btn btn-default">Reset</button>
+                <button type="button" id="oauth2" class="btn btn-default">Sign In to Imgur</button>
+				<div id="status" role="alert"></div>
+			</form>
+		</fieldset>
+	</div>
+</body>
+
+</html>
